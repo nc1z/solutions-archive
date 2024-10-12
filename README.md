@@ -67,3 +67,7 @@ Here we implemented a version that takes in an array of promises instead of an i
 ## 4. Throttle
 
 We can ensure that the function only runs if enough time (limit) has passed since the last call, hence throttling / slowing down the call.
+
+## 5. Promise Any
+
+Similar to `Promise.any()` in ES2021, except here we're taking in an array of promises.
