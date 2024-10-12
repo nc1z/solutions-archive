@@ -57,3 +57,9 @@ Task 4 - 500ms
 ## 2. Debounce
 
 Debouncing is a technique used to control how many times we allow a function to be executed over time. When a JavaScript function is debounced with a wait time of X milliseconds, it must wait until after X milliseconds have elapsed since the debounced function was last called.
+
+## 3. Promise All
+
+`Promise.all()` is a method that takes an iterable of elements (usually Promises) as an input, and returns a single Promise that resolves to an array of the results of the input promises.
+
+Here we implemented a version that takes in an array of promises instead of an iterable.
