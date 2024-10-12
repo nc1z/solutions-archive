@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "npx tsc",
+    "schedule": "npx tsc && node dist/asyncScheduler/example.js",
+    "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.7.5",
     "typescript": "^5.6.3"
   }
 }
