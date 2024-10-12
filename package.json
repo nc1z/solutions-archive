@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "schedule": "npx tsc && node dist/asyncScheduler/example.js",
+    "debounce": "npx tsc && node dist/debounce/example.js",
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

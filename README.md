@@ -53,3 +53,7 @@ Task 4 - 500ms
 [11:10:43 am] Result of Task 4: undefined
 [11:10:46 am] All results:  [ 'hello', 42, { success: true }, undefined ]
 ```
+
+## 2. Debounce
+
+Debouncing is a technique used to control how many times we allow a function to be executed over time. When a JavaScript function is debounced with a wait time of X milliseconds, it must wait until after X milliseconds have elapsed since the debounced function was last called.
