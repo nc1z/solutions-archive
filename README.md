@@ -63,3 +63,7 @@ Debouncing is a technique used to control how many times we allow a function to 
 `Promise.all()` is a method that takes an iterable of elements (usually Promises) as an input, and returns a single Promise that resolves to an array of the results of the input promises.
 
 Here we implemented a version that takes in an array of promises instead of an iterable.
+
+## 4. Throttle
+
+We can ensure that the function only runs if enough time (limit) has passed since the last call, hence throttling / slowing down the call.

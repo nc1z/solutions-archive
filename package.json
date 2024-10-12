@@ -7,6 +7,7 @@
     "schedule": "npx tsc && node dist/asyncScheduler/example.js",
     "debounce": "npx tsc && node dist/debounce/example.js",
     "promiseAll": "npx tsc && node dist/promiseAll/example.js",
+    "throttle": "npx tsc && node dist/throttle/example.js",
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
