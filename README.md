@@ -71,3 +71,7 @@ We can ensure that the function only runs if enough time (limit) has passed sinc
 ## 5. Promise Any
 
 Similar to `Promise.any()` in ES2021, except here we're taking in an array of promises.
+
+## 6. LRU Cache
+
+Least Recently Used Cache, an example of an LRU in-memory Cache using doubly linked lists.

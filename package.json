@@ -9,6 +9,7 @@
     "promiseAll": "npx tsc && node dist/promiseAll/example.js",
     "throttle": "npx tsc && node dist/throttle/example.js",
     "promiseAny": "npx tsc && node dist/promiseAny/example.js",
+    "lru": "npx tsc && node dist/LRUCache/example.js",
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
